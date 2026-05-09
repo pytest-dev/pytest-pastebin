@@ -6,13 +6,13 @@ pytest-pastebin
     :target: https://pypi.org/project/pytest-pastebin
     :alt: PyPI version
 
-.. image:: https://github.com/pytest-dev/pytest-pastebin/actions/workflows/main.yml/badge.svg
-    :target: https://github.com/pytest-dev/pytest-pastebin/actions/workflows/main.yml
+.. image:: https://github.com/pytest-dev/pytest-pastebin/actions/workflows/test.yml/badge.svg
+    :target: https://github.com/pytest-dev/pytest-pastebin/actions/workflows/test.yml
     :alt: See Build Status on GitHub Actions
 
 Submit pytest failure or test session information to a pastebin service.
 
-The pastebin service used is `https://bpa.st/`__.
+The pastebin service used is https://bpa.st/.
 
 This plugin has been extracted from pytest's core in version 9.1.0.
 
@@ -28,15 +28,15 @@ You can install "pytest-pastebin" via `pip`_ from `PyPI`_::
 Usage
 -----
 
-```
-$ pytest --pastebin=failed  # Send failed info to bpa.st pastebin service
-...
-pastebin session-log: https://bpa.st/show/QUUX
+::
 
-$ pytest --pastebin=all     # Send all info to bpa.st pastebin service
-...
-pastebin session-log: https://bpa.st/show/THUD
-```
+    $ pytest --pastebin=failed  # Send failed info to bpa.st pastebin service
+    ...
+    pastebin session-log: https://bpa.st/show/QUUX
+
+    $ pytest --pastebin=all     # Send all info to bpa.st pastebin service
+    ...
+    pastebin session-log: https://bpa.st/show/THUD
 
 
 License
