@@ -45,11 +45,6 @@ License
 Distributed under the terms of the `MIT`_ license, "pytest-pastebin" is free and open source software.
 
 
-Issues
-------
-
-If you encounter any problems, please `file an issue`_ along with a detailed description.
-
 .. _`MIT`: https://opensource.org/licenses/MIT
 .. _`pytest`: https://github.com/pytest-dev/pytest
 .. _`pip`: https://pypi.org/project/pip/
