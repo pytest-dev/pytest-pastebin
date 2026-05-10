@@ -1,8 +1,8 @@
 Changelog
 =========
 
-v1.0.0 (TBD)
-------------
+v1.0.0 (2026-05-10)
+-------------------
 
 - Imported pytest-pastebin plugin from pytest-dev/pytest.
 
